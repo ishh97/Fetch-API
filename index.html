@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <input type="text" placeholder="London" id="loc" />
+    </div>
+    <div>
+      <h2><span id="location">Jaipur</span></h2>
+      <p><span id="day">Monday</span> <span id="date">00/00/2000</span></p>
+    </div>
+    <div>
+      <h1><span id="temp">23</span>&deg c</h1>
+    </div>
+    <div>
+      <h3 id="sky">rain</h3>
+      <p id="minmax">
+        <span id="mintemp">23</span>&deg/<span id="maxtemp">24</span>&deg
+      </p>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
